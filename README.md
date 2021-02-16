@@ -7,6 +7,9 @@
 ![Scrutinizer code quality (GitHub/Bitbucket)](https://img.shields.io/scrutinizer/quality/g/phamleduy04/chatvoinguoila?style=for-the-badge)
 ![Node.js CI](https://github.com/phamleduy04/chatvoinguoila/workflows/Node.js%20CI/badge.svg)
 
+## chatvoinguoila
+Khi bạn sử dụng bot đồng nghĩa với việc bạn đồng ý với điều khoản ở [đây](https://github.com/phamleduy04/chatvoinguoila/blob/master/dieukhoan.md)
+
 ## Hướng dẫn cách chạy bot
 1. Tải và cài đặt [NodeJS](https://nodejs.org/en/) (LTS)
 2. Clone [repo]([https://github.com/phamleduy04/chatvoinguoila](https://github.com/phamleduy04/chatvoinguoila)) này về máy tính của bạn.
@@ -31,8 +34,9 @@ MESSENGER_APP_SECRET=
 MESSENGER_VERIFY_TOKEN=
 MONGODB=
 ``` 
-14. Chạy lệnh `npm run dev`
-15. Sau đó tạo 1 terminal mới và nhập lệnh `npm run setprofile` và `npm run setwebhook`
+14. Chạy lệnh `npm install`
+15. Chạy lệnh `npm run dev`
+16. Sau đó tạo 1 terminal mới và nhập lệnh `npm run setprofile` và `npm run setwebhook`
 
 ## Báo lỗi và góp ý
 Các bạn có thể tạo [PR (Pull request)](https://github.com/phamleduy04/chatvoinguoila/pulls) hoặc [issue](https://github.com/phamleduy04/chatvoinguoila/issues).
